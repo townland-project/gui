@@ -1,0 +1,21 @@
+:root {
+    // element
+    --tl-style-element-border-radius: 10px;
+    --tl-style-element-font-size: 18px;
+    // button
+    --tl-style-button-size: 46px;
+    --tl-style-button-border-radius: var(--tl-style-element-border-radius);
+    --tl-style-button-font-size: var(--tl-style-element-font-size);
+    --tl-style-button-horizontal-padding: 16px;
+    // dialog
+    --tl-style-dialog-border-radius: var(--tl-style-element-border-radius);
+    --tl-style-dialog-header-height: 46px;
+    --tl-style-dialog-header-button-size: 32px;
+    --tl-style-dialog-body-padding: 7px;
+    // input
+    --tl-style-input-border-radius: var(--tl-style-element-border-radius);
+    --tl-style-input-height: 44px;
+    --tl-style-input-horizontal-padding: 12px;
+    // icon
+    --tl-style-icon-size: 24px;
+}

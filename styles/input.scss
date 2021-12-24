@@ -1,0 +1,26 @@
+input.tl-input {
+    border-radius: var(--tl-style-input-border-radius);
+
+    background-color: var(--background-color);
+    color: var(--color);
+
+    height: var(--tl-style-input-height);
+
+    padding: 0 var(--tl-style-input-horizontal-padding);
+
+    &.tl-input-inner-shadowed {
+        box-shadow: inset 0 0 10px var(--shadow-color);
+    }
+
+    &.tl-input-shadowed {
+        box-shadow: 0 4px 8px var(--shadow-color);
+    }
+
+    &.tl-input-bordered {
+        border: 2px solid var(--border-color);
+    }
+
+    &::placeholder {
+        color: var(--placeholder-color);
+    }
+}

@@ -1,0 +1,14 @@
+* {
+    border: none;
+    outline: none;
+    user-select: none;
+}
+
+// init
+@import "./normilize.scss";
+@import "./variables.scss";
+
+// components
+@import "./button.scss";
+@import "./dialog.scss";
+@import "./input.scss";
